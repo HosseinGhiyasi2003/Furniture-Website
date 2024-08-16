@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+:root {
+  --primary-color: #054C73;
+  --dark-color: #333333
+}
+
+
+/* header */
+
+.navbar-brand {
+  color: #054C73;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.navbar-nav {
+}
+
+.nav-link {
+  margin-right: 60px;
+  color: var(--dark-color);
+  font-size: 14px;
+  font-weight: 600;
+  transition: .5s;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.collection {
+  background: url(imgs/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+  height: 100vh;
+}
+
+.collection .row {
+  height: 100vh;
+}
+
+.collection-content {
+  background-color: #DFE9F4;
+  padding: 37px 45px 41px 39px;
+}
+
+.collection-content span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.collection-content .collection-content-title {
+  color: var(--primary-color);
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.collection-content .collection-content-desc {
+  color: var(--dark-color);
+  font-size: 18px;
+  line-height: 39px;
+}
+
+.collection-content .collection-content-btn {
+  all: unset;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 25px 72px;
+  border-radius: 50px;
+}
+
+.bottom-header {
+  background-color: #F2F5FF;
+  padding: 46px 0;
+}
+
+.bottom-header .desc .desc-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.bottom-header .desc .desc-par {
+  font-size: 16px;
+}
+
+.Inspiration {
+  padding: 60px 0;
+}
+
+.Inspiration-title {
+  color: var(--dark-color);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.Inspiration-desc {
+  color: #666666;
+  margin-top: 20px;
+  font-size: 20px;
+}
